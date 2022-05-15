@@ -1,5 +1,5 @@
 <script setup>
-import TheWelcome from "@/components/TheWelcome.vue";
+import VueButton from "@/components/Button.vue";
 </script>
 
 <template>
@@ -21,10 +21,12 @@ import TheWelcome from "@/components/TheWelcome.vue";
         <img class="svg-icon" src="@/assets/hashtag.svg" alt="">
       </div>
     </div>
+    <VueButton class="center" msg="JOIN NOW"/>
   </main>
 </template>
 
 <style scoped>
+
   main {
     display: grid;
   }
@@ -58,4 +60,10 @@ import TheWelcome from "@/components/TheWelcome.vue";
     width: auto;
     height: 102.12px; 
   }
+
+  .center {
+    place-self: center;
+    margin: 3em;
+  }
+
 </style>
