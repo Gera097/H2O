@@ -41,6 +41,16 @@
         margin-left: 0.5%;
         border: none;
         font-weight: 600;
+        background-color: #08a860;
+        color: white;
+        padding: 0.5em;
+        border-radius: 0px 1em 1em 0px;
+    }
+    button:hover {
+        width: 10%;
+        margin-left: 0.5%;
+        border: none;
+        font-weight: 600;
         background-color: #63C196;
         color: white;
         padding: 0.5em;
