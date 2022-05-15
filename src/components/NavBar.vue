@@ -34,7 +34,11 @@
         color: white;
     }
     a {
-        font-size: medium;
+        font-weight: 500;
+        color: white;
+    }
+    a:hover {
+        font-weight: 700;
         color: white;
     }
 
