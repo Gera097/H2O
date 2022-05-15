@@ -1,5 +1,6 @@
 <script setup>
 import VueButton from "@/components/Button.vue";
+import Carrusel from "@/components/Carrusel.vue";
 </script>
 
 <template>
@@ -22,6 +23,13 @@ import VueButton from "@/components/Button.vue";
       </div>
     </div>
     <VueButton class="center" msg="JOIN NOW"/>
+    <div class="carroussel-container">
+      <Carrusel class="carrusel"/>
+      <div class="right-container">
+        <h3>LEARN HOW TO HELP ENDANGERED SPECIES</h3>
+      </div>
+      
+    </div>
   </main>
 </template>
 
@@ -64,6 +72,27 @@ import VueButton from "@/components/Button.vue";
   .center {
     place-self: center;
     margin: 3em;
+  }
+  .carroussel-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 50% 25%;
+    grid-template-areas: 
+      ". ."
+      "left right"
+      ". .";
+    background-color: #02023A;
+  }
+
+  .carroussel-container h3{
+    color: white;
+  }
+  .carrusel {
+    grid-area: left;
+  }
+
+  .right-container {
+    grid-area: right;
   }
 
 </style>
