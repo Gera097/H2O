@@ -1,8 +1,8 @@
 <script setup>
-import AnimalCard from "@/components/AnimalCard.vue";
+import AnimalGrid from "@/components/AnimalGrid.vue";
 </script>
 <template>
-<AnimalCard/>
+    <AnimalGrid/>
 </template>
 <style>
 </style>
