@@ -4,7 +4,7 @@ import AnimalFinder from "@/components/AnimalFinder.vue";
 </script>
 <template>
     <div class="container">
-        <AnimalFinder/>
+        <AnimalFinder class="buscador"/>
         <AnimalGrid/>
     </div>
     
@@ -12,5 +12,9 @@ import AnimalFinder from "@/components/AnimalFinder.vue";
 <style>
     .container {
         background-color: #02023A;
+    }
+
+    .buscador {
+        padding: 2.5em 0em 0.5em;
     }
 </style>
