@@ -14,7 +14,7 @@ import AnimalCard from "@/components/AnimalCard.vue";
     </div>
     
 </template>
-<style>
+<style scoped>
     .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

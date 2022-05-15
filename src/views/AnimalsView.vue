@@ -2,7 +2,13 @@
 import AnimalGrid from "@/components/AnimalGrid.vue";
 </script>
 <template>
-    <AnimalGrid/>
+    <div class="container">
+        <AnimalGrid/>
+    </div>
+    
 </template>
 <style>
+    .container {
+        background-color: #02023A;
+    }
 </style>
