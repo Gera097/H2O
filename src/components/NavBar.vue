@@ -4,9 +4,9 @@
             <img src="@/assets/logo_h2o.png" alt="Logo H2O">
             <div>
                 <RouterLink class="link" to="/">Home</RouterLink>
-                <RouterLink class="link" to="/about">Animals</RouterLink>
-                <RouterLink class="link" to="/about">Community</RouterLink>
-                <RouterLink class="link" to="/about">Join</RouterLink>
+                <RouterLink class="link" to="/animals">Animals</RouterLink>
+                <RouterLink class="link" to="/animals">Community</RouterLink>
+                <RouterLink class="link" to="/animals">Join</RouterLink>
             </div>
         </nav>
     </header>
