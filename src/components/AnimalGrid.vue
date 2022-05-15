@@ -3,14 +3,14 @@ import AnimalCard from "@/components/AnimalCard.vue";
 </script>
 <template>
     <div class="grid-container">
-        <AnimalCard name="Ajolote mexicano" img-route="/src/assets/Ajolote.png"/>
-        <AnimalCard name="Ajolote mexicano" img-route="/src/assets/Ajolote.png"/>
-        <AnimalCard name="Ajolote mexicano" img-route="/src/assets/Ajolote.png"/>
-        <AnimalCard name="Ajolote mexicano" img-route="/src/assets/Ajolote.png"/>
-        <AnimalCard name="Ajolote mexicano" img-route="/src/assets/Ajolote.png"/>
-        <AnimalCard name="Ajolote mexicano" img-route="/src/assets/Ajolote.png"/>
-        <AnimalCard name="Ajolote mexicano" img-route="/src/assets/Ajolote.png"/>
-        <AnimalCard name="Ajolote mexicano" img-route="/src/assets/Ajolote.png"/>
+        <AnimalCard name="Ajolote mexicano" img-route="https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800"/>
+        <AnimalCard name="Ajolote mexicano" img-route="https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800"/>
+        <AnimalCard name="Ajolote mexicano" img-route="https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800"/>
+        <AnimalCard name="Ajolote mexicano" img-route="https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800"/>
+        <AnimalCard name="Ajolote mexicano" img-route="https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800"/>
+        <AnimalCard name="Ajolote mexicano" img-route="https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800"/>
+        <AnimalCard name="Ajolote mexicano" img-route="https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800"/>
+        <AnimalCard name="Ajolote mexicano" img-route="https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800"/>
     </div>
     
 </template>
