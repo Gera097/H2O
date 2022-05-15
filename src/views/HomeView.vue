@@ -22,11 +22,12 @@ import Carrusel from "@/components/Carrusel.vue";
         <img class="svg-icon" src="@/assets/hashtag.svg" alt="">
       </div>
     </div>
-    <VueButton class="center" msg="JOIN NOW"/>
+    <VueButton class="join-button" msg="JOIN NOW"/>
     <div class="carroussel-container">
       <Carrusel class="carrusel"/>
       <div class="right-container">
-        <h3>LEARN HOW TO HELP ENDANGERED SPECIES</h3>
+        <h3>LEARN HOW TO HELP <span class="enfasis">ENDANGERED SPECIES</span></h3>
+        <VueButton msg="DISCOVER MORE" class="discover-button"/>
       </div>
       
     </div>
@@ -69,8 +70,10 @@ import Carrusel from "@/components/Carrusel.vue";
     height: 102.12px; 
   }
 
-  .center {
+  .join-button {
     place-self: center;
+    border-color: #F6F6F6;
+    border-radius: 0.3em;
     margin: 3em;
   }
   .carroussel-container {
@@ -95,5 +98,20 @@ import Carrusel from "@/components/Carrusel.vue";
   .right-container {
     grid-area: right;
   }
+
+  .discover-button {
+    background-color: #023E8A;
+    box-shadow: -13px 14px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.15);
+  }
+
+  .right-container {
+    font-size: 2em;
+    place-self: center;
+    text-align: center;
+  }
+
 
 </style>
