@@ -1,7 +1,7 @@
 <template>
     <header>
         <nav class="wrapper">
-            <h1>H2O MÉXICO</h1>
+            <img src="@/assets/logo_h2o.png" alt="Logo H2O">
             <div>
                 <RouterLink class="link" to="/">Home</RouterLink>
                 <RouterLink class="link" to="/about">Animals</RouterLink>
@@ -17,8 +17,9 @@
     .wrapper {
         display:flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding: 0 3em;
     }
 
     .link {
@@ -35,5 +36,9 @@
     a {
         font-size: medium;
         color: white;
+    }
+
+    img {
+        max-height: 3em;
     }
 </style>
