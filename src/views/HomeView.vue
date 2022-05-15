@@ -5,7 +5,10 @@ import Carrusel from "@/components/Carrusel.vue";
 
 <template>
   <main>
+    <div class="portrait-container">
     <img src="@/assets/home_portrait.png" alt="Persona cortando basura atorada en su lancha, en el mar">
+    <h2 class="portrait-text">DISCOVER HOW YOU CAN <span>HELP OUR OCEANS</span></h2>
+    </div>
     <h2>BE PART OF OUR <span class="enfasis">COMUNNITY</span></h2>
     <img src="@/assets/mapa_mexico.png" alt="">
     <div class="horizontal-list">
@@ -26,7 +29,7 @@ import Carrusel from "@/components/Carrusel.vue";
     <div class="carroussel-container">
       <Carrusel class="carrusel"/>
       <div class="right-container">
-        <h3>LEARN HOW TO HELP <span class="enfasis">ENDANGERED SPECIES</span></h3>
+        <h3>LEARN HOW TO HELP <span>ENDANGERED SPECIES</span></h3>
         <VueButton msg="DISCOVER MORE" class="discover-button"/>
       </div>
       
@@ -40,6 +43,22 @@ import Carrusel from "@/components/Carrusel.vue";
     display: grid;
   }
 
+  .portrait-container {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+  }
+
+
+  .portrait-text {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    width: 25%;
+    text-align: center;
+    z-index: 1;
+  }
+
   .horizontal-list {
     display: flex;
     justify-content: space-around;
@@ -51,9 +70,12 @@ import Carrusel from "@/components/Carrusel.vue";
   h2 {
     justify-self: center;
   }
+
+  span {
+    color: #13abf1;
+  }
   .enfasis {
     text-decoration: underline;
-    color: #6ad0ff;
   }
 
   .card {
