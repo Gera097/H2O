@@ -16,15 +16,16 @@
 </template>
 
 <style>
-   .slider-container {
+  .slider-container {
   display: flex;
-  width: 100%;
+  width: 75%;
   overflow-x: scroll;
 
   scroll-snap-type: x mandatory;
 }
 
 .slider-container img {
+  margin: 0px 5px;
   flex: 0 0 100%;
   width: 100%;
   border-radius: 10px;

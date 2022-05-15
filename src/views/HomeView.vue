@@ -76,7 +76,7 @@ import Carrusel from "@/components/Carrusel.vue";
   .carroussel-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 50% 25%;
+    grid-template-rows: 1fr 75% 1fr;
     grid-template-areas: 
       ". ."
       "left right"
@@ -89,6 +89,7 @@ import Carrusel from "@/components/Carrusel.vue";
   }
   .carrusel {
     grid-area: left;
+    justify-self: center;
   }
 
   .right-container {
