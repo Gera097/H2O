@@ -6,6 +6,7 @@ import vueJsx from "@vitejs/plugin-vue-jsx";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/H2O_client/',
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
