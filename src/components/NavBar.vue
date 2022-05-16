@@ -17,18 +17,33 @@
     .wrapper {
         display:flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        padding: 0 3em;
+        padding: 0px 5em;
+        gap: 0px 20px;
     }
-
+    @media (max-width: 700px) {
+        .wrapper {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+        gap: 0px 20px;
+    }
+    } 
     .link {
         margin: 0.5em;
         text-decoration: none;
     }
     nav {
         background-color: #03045E;
-        height: 5em;
+        height:5rem;
+        min-width: fit-content;
+    }
+    nav div {
     }
     h1 {
         color: white;
