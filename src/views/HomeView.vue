@@ -111,39 +111,40 @@ import Carrusel from "@/components/Carrusel.vue";
   }
   .carroussel-container {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 75% 1fr;
-    grid-template-areas: 
-      ". ."
-      "left right"
-      ". .";
+    grid-template-columns: repeat(auto-fill, minmax(350px,50%));
     background-color: #02023A;
+    justify-content: center;
   }
 
   .carroussel-container h3{
     color: white;
   }
   .carrusel {
-    grid-area: left;
+    padding: 1em 0px;
     justify-self: center;
   }
-
-  .right-container {
-    grid-area: right;
-  }
-
   .discover-button {
     background-color: #023E8A;
     box-shadow: -13px 14px 4px rgba(0, 0, 0, 0.15);
     font-weight: 700;
     border-radius: 7px;
     border-color: rgba(0, 0, 0, 0.15);
+    margin: 1em;
+  }
+  .discover-button:hover {
+    background-color: #0096C7;
+    box-shadow: -13px 14px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.15);
+    margin: 1em;
   }
 
   .right-container {
-    font-size: 2em;
+    font-size: 3vw;
     place-self: center;
     text-align: center;
+    padding: 2em;
   }
 
 

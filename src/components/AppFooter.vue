@@ -15,6 +15,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        min-width: 350px;
     }
     
     p {
