@@ -10,7 +10,7 @@ import Carrusel from "@/components/Carrusel.vue";
     <h2 class="portrait-text">DISCOVER HOW YOU CAN <span>HELP OUR OCEANS</span></h2>
     </div>
     <h2>BE PART OF OUR <span class="enfasis">COMUNNITY</span></h2>
-    <img src="@/assets/mapa_mexico.png" alt="">
+    <img class="mapa-comunidades" src="@/assets/mapa_mexico.png" alt="Comunidades de H2O en México">
     <div class="horizontal-list">
       <div class="card">
         <h3>JOIN LOCAL EVENTS</h3>
@@ -43,6 +43,7 @@ import Carrusel from "@/components/Carrusel.vue";
     min-width: 350px;
     display: grid;
     justify-content: center;
+    gap: 1em;
   }
 
   .portrait-container {
@@ -71,9 +72,10 @@ import Carrusel from "@/components/Carrusel.vue";
     color: #03045E;
   }
   h2 {
+    font-size: calc(1em + 2vw);
     justify-self: center;
+    text-align: center;
   }
-
   span {
     color: #13abf1;
   }
@@ -89,6 +91,10 @@ import Carrusel from "@/components/Carrusel.vue";
   img {
     width: 100%;
     height: auto;
+  }
+  .mapa-comunidades {
+    place-self: center;
+    width:90%;
   }
   .svg-icon {
     width: auto;
