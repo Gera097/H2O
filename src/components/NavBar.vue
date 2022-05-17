@@ -41,9 +41,7 @@
     nav {
         background-color: #03045E;
         height:5rem;
-        min-width: fit-content;
-    }
-    nav div {
+        min-width: 350px;
     }
     h1 {
         color: white;
