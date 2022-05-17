@@ -1,6 +1,8 @@
 # H2O "HELP TO THE OCEAN"
 Solución a **Hack the Ocean Challenge** de LaunchX
 
+Aquí puedes revisar la [descripción completa](https://github.com/harold-barron/Help-to-the-ocean-) de nuestra solución propuesta.
+
 Link a la página realizada https://gera097.github.io/H2O_client/
 
 ### Por realizar: 
