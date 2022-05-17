@@ -65,8 +65,10 @@ import Carrusel from "@/components/Carrusel.vue";
 
   .horizontal-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    gap: 1em;
   }
   h2, h3 {
     color: #03045E;
@@ -102,10 +104,10 @@ import Carrusel from "@/components/Carrusel.vue";
   }
 
   .join-button {
-    place-self: center;
     border-color: #F6F6F6;
     border-radius: 0.3em;
     margin: 3em;
+    place-self: center;
   }
   .carroussel-container {
     display: grid;
