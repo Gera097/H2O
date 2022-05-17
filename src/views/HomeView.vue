@@ -40,7 +40,9 @@ import Carrusel from "@/components/Carrusel.vue";
 <style scoped>
 
   main {
+    min-width: 350px;
     display: grid;
+    justify-content: center;
   }
 
   .portrait-container {
@@ -51,6 +53,7 @@ import Carrusel from "@/components/Carrusel.vue";
 
 
   .portrait-text {
+    font-size: 3vw;
     position: absolute;
     top: 10%;
     left: 8%;
