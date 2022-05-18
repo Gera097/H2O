@@ -5,7 +5,7 @@
             <div>
                 <RouterLink class="link" to="/">Home</RouterLink>
                 <RouterLink class="link" to="/animals">Animals</RouterLink>
-                <RouterLink class="link" to="/animals">Community</RouterLink>
+                <RouterLink class="link" to="/community">Community</RouterLink>
                 <RouterLink class="link" to="/animals">Join</RouterLink>
             </div>
         </nav>
