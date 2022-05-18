@@ -14,5 +14,6 @@ import AppFooter from "@/components/AppFooter.vue";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
   .App {
     font-family: 'Montserrat';
+    min-width: 350px;
   }
 </style>
