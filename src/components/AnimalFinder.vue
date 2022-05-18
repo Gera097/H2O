@@ -23,6 +23,7 @@
     form {
         display: flex;
         justify-content: center;
+        min-width:fit-content;
     }
     .search-container {
         display: block;
@@ -37,6 +38,7 @@
         border-radius: 1em 0px 0px 1em;
     }
     button {
+        min-width: fit-content;
         width: 10%;
         margin-left: 0.5%;
         border: none;
