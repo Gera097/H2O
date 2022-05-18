@@ -11,8 +11,6 @@
 
 <style scoped>
     .card {
-        height: 400px;
-        width: 290px;
         border: none;
         background-color: #02023a00;
     }
