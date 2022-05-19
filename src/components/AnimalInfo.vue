@@ -51,7 +51,7 @@
     .image {
         padding: 1em;
         max-width: 40%;
-        min-width: 350px;
+        min-width: 300px;
         align-items: center;
         place-self: center;
         border-radius: 1em;
