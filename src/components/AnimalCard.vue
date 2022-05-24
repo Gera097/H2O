@@ -47,5 +47,6 @@ const showModal = ref(false)
     img {
         border-radius: 1em;
         width: 100%;
+        height: 200px;
     }
 </style>
