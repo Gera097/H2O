@@ -2,21 +2,28 @@
     import {ref} from 'vue';
     import AnimalInfoVue from "@/components/AnimalInfo.vue";
     import ModalVue from '../components/Modal.vue';
-    defineProps(["name", "imgRoute"]);
+    import CRUD from '../lib/utils/crud.js'
+    const props = defineProps(["name", "imgRoute"]);
+    let info = ref(null);
+    let showModal = ref(false);
     
-const showModal = ref(false)
+    async function clic_event (){
+        showModal.value = true;
+        let response = await CRUD.get("./src/mock/"+props.name+".json");
+        info.value = response.data;
+        console.log(info.value)   
+    } 
 </script>
 
 <template>
 <Teleport to="body">
     <ModalVue :show="showModal" @close="showModal = false">
-        <template #body>
-            <AnimalInfoVue name="Mexican Axolotl" img-route="https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800" description="With the scientific name Ambystoma mexicanum, it is a creature whose curious appearance earned it the name of water monster (axolotl) among the Nahuatl tribe.
-        It is possible to find it in the canals of the city of Xochimilco, but there are fewer and fewer specimens that exist in freedom, so most of them live in aquariums throughout the world." nivelPeligro="Extreme" region="Laguna de Xochimilco"/>
+        <template v-if="info" #body>
+            <AnimalInfoVue :name="info.name" :img-route="info.link" :description="info.description" :nivelPeligro="info.level" :region="info.region"/>
         </template>
     </ModalVue>
 </Teleport>
-<button class="img-card" @click="showModal = true">
+<button class="img-card" @click="clic_event">
     <img :src="imgRoute" alt="">
     <p>{{name}}</p>
 </button>
