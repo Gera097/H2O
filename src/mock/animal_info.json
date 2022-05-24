@@ -1,18 +1,32 @@
 {
-    "Animales": 
+    "animales": 
     {
-        "Totoaba" : {
+        "totoaba" : {
             "name": "Totoaba",
-            "nivel": "Extremo",
-            "descripcion":"Localizada en el norte del Golfo de California de México, este pez enfrenta desde hace décadas una dura caza furtiva porque su buche es enormemente codiciado en China, donde se le atribuyen capacidades afrodisíacas y medicinales. Su pesca supone el sustento principal de muchos habitantes de pueblos del Alto Golfo de California, como San Felipe o Puerto Peñasco Sonora. El precio que pagan los intermediarios asiáticos a los pescadores mexicanos por un kilo de vejiga o buche es de entre 500 a 2,000 dólares.",
+            "level": "Extremo",
+            "description":"Localizada en el norte del Golfo de California de México, este pez enfrenta desde hace décadas una dura caza furtiva porque su buche es enormemente codiciado en China, donde se le atribuyen capacidades afrodisíacas y medicinales. Su pesca supone el sustento principal de muchos habitantes de pueblos del Alto Golfo de California, como San Felipe o Puerto Peñasco Sonora. El precio que pagan los intermediarios asiáticos a los pescadores mexicanos por un kilo de vejiga o buche es de entre 500 a 2,000 dólares.",
             "link": "https://www.elsoldemexico.com.mx/doble-via/ecologia/15ptay-proteccion-de-totoaba-y-vaquita-marina.jpg/alternates/LANDSCAPE_480/Proteccio%CC%81n%20de%20totoaba%20y%20vaquita%20Marina.jpg",
             "region": "Norte del Golfo de California"
         },
-        "Tortuga carey": {
+        "tortuga_carey": {
             "name": "Tortuga carey",
-            "nivel": "Extremo",
-            "descripcion":"Sobrevive en las zonas tropicales de los océanos, la población total de esta especie ha disminuido hasta un 80% en los últimos años debido a la pesca desmesurada en China y Japón, por los atractivos patrones de colores en su caparazón y su tráfico ilegal. El descenso de su población también se debe a la degradación de los arrecifes de coral, los cuales son su principal alimento. Esta familia de tortugas son los representantes vivos de algunos reptiles que existieron hace 100 millones de años. En territorio mexicano se alberga principalmente en el Golfo de México en playas continentales e insulares de los estados de Veracruz, Campeche, Yucatán y Quintana Roo. En ocasiones se les puede localizar en playas e islas de Michoacán, Jalisco, Sinaloa y Oaxaca.",
+            "level": "Extremo",
+            "description":"Sobrevive en las zonas tropicales de los océanos, la población total de esta especie ha disminuido hasta un 80% en los últimos años debido a la pesca desmesurada en China y Japón, por los atractivos patrones de colores en su caparazón y su tráfico ilegal. El descenso de su población también se debe a la degradación de los arrecifes de coral, los cuales son su principal alimento. Esta familia de tortugas son los representantes vivos de algunos reptiles que existieron hace 100 millones de años. En territorio mexicano se alberga principalmente en el Golfo de México en playas continentales e insulares de los estados de Veracruz, Campeche, Yucatán y Quintana Roo. En ocasiones se les puede localizar en playas e islas de Michoacán, Jalisco, Sinaloa y Oaxaca.",
             "link": "https://imagenagropecuaria.com/revista/wp-content/uploads/2020/06/carey-3.jpg",
+            "region": "Golfo de México"
+        },
+        "ajolote_mexicano": {
+            "name": "Mexican Axolotl",
+            "level": "Extremo",
+            "description":"With the scientific name Ambystoma mexicanum, it is a creature whose curious appearance earned it the name of water monster (axolotl) among the Nahuatl tribe. It is possible to find it in the canals of the city of Xochimilco, but there are fewer and fewer specimens that exist in freedom, so most of them live in aquariums throughout the world.",
+            "link": "https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800",
+            "region": "Laguna de Xochimilco"
+        },
+        "tiburon_martillo_gigante": {
+            "name": "Tiburón Martillo Gigante",
+            "level": "Extremo",
+            "description":"Habitante de las zonas tropicales, el Tiburón Martillo Gigante llega a medir de 0.9 hasta 6 metros y pesa cerca de 580 kg. Es conocido como uno de los depredadores más agresivos del planeta. Es cazado ilegalmente por su aleta valiosa en el mercado asiático; el proceso es cruel ya que la aleta es cortada mientras el tiburón sigue respirando, después el cuerpo es tirado al mar mientras el animal se desangra. Esta práctica ilegal lo ha puesto en riesgo.",
+            "link": "https://imagenagropecuaria.com/revista/wp-content/uploads/2020/06/Screenshot_2020-06-30-PACE_Tiburones_y_Rayas-pdf-768x507.png",
             "region": "Golfo de México"
         }
     }

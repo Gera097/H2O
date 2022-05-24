@@ -1,14 +1,19 @@
 [
     {
-        "name":"Ajolote mexicano",
+        "name":"ajolote_mexicano",
         "photo_link": "https://www.24-horas.mx/wp-content/uploads/2019/11/ajolote.jpg?w=800"
     },
     {
-        "name":"Totoaba",
+        "name":"totoaba",
         "photo_link": "https://www.elsoldemexico.com.mx/doble-via/ecologia/15ptay-proteccion-de-totoaba-y-vaquita-marina.jpg/alternates/LANDSCAPE_480/Proteccio%CC%81n%20de%20totoaba%20y%20vaquita%20Marina.jpg"
     },
     {
-        "name":"Tortuga carey",
+        "name":"tortuga_carey",
         "photo_link": "https://imagenagropecuaria.com/revista/wp-content/uploads/2020/06/carey-3.jpg"
+    },
+    {
+        "name":"tiburon_martillo_gigante",
+        "photo_link": "https://imagenagropecuaria.com/revista/wp-content/uploads/2020/06/Screenshot_2020-06-30-PACE_Tiburones_y_Rayas-pdf-768x507.png"
     }
+    
 ]
